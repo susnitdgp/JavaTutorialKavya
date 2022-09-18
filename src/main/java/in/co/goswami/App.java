@@ -1,5 +1,6 @@
 package in.co.goswami;
 
+
 /**
  * Hello world!
  *
@@ -10,5 +11,8 @@ public class App
     {
         System.out.println( "Hello World From Goswami" );
         System.out.println("Again Hello");
+
+        Rahul rahul=new Rahul();
+        rahul.canRun();
     }
 }
