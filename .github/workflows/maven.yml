@@ -26,9 +26,3 @@ jobs:
 
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-
-    - name : Upload Jar File
-      - uses: actions/upload-artifact@v3
-          with:
-            name: Sample-Java-App
-            path: '${{ github.workspace }}/target/*.jar'
