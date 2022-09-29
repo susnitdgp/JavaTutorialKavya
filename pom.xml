@@ -25,6 +25,15 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/com.microsoft.azure/msal4j -->
+    <dependency>
+        <groupId>com.microsoft.azure</groupId>
+        <artifactId>msal4j</artifactId>
+        <version>1.11.0</version>
+    </dependency>
+
+
   </dependencies>
 
   <build>
